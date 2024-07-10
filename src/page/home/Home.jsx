@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div>
         <Background />
-        <section className='mt-[100px] m-3'><BookCard /></section>
-        <section className='mt-[100px]'><LessonCard /></section>
-        <section className='mt-[100px]'><BlogCard /></section>
+        <BookCard />
+        <LessonCard />
+        <BlogCard />
 
         
         

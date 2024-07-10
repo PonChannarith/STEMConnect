@@ -22,7 +22,7 @@ const AllAboutUs = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div className="img-box mt-8">
-              <img src="../src/assets/Online-learning.gif" alt="Online Learning" className="w-full"/>
+              <img src="../src/assets/Online learning.gif" alt="Online Learning" className="w-full"/>
             </div>
             <div className="lg:pl-[100px] flex items-center">
               <div className="data w-full">
@@ -52,7 +52,7 @@ const AllAboutUs = () => {
               </div>
             </div>
             <div className="img-box">
-              <img src="../src/assets/purpose_STEM.jpg" alt="Purpose of STEM" className="w-full"/>
+              <img src="../src/assets/personal goals checklist (1).gif" alt="Purpose of STEM" className="w-full"/>
             </div>
           </div>
         </div>
