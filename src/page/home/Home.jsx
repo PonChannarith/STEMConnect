@@ -1,22 +1,13 @@
 import React from 'react'
 import Background from '../../components/background/Background';
-import BookCard from '../../components/bookCard/BookCard';
 import FooterCard from '../../components/footer/FooterCard';
-import LessonCard from '../../components/lessonCard/LessonCard';
-import BlogCard from '../../components/blogCard/BlogCard';
+import HomePage from '../../components/homePage/HomePage';
 const Home = () => {
   return (
     <div>
         <Background />
-        <BookCard />
-        <LessonCard />
-        <BlogCard />
-
-        
-        
-        
+        <HomePage />
         <FooterCard />
-      
     </div>
   )
 }

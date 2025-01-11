@@ -4,13 +4,13 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 
 const FooterCard= () => {
   return (
-    <>
+    <div>
       <Footer container className=" bg-slate-100 mt-[30px]">
       <div className="w-[82%] mx-auto">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
-              src="../src/assets/stemlogo-removebg-preview.png" className="w-20 h-15 mt-4"
+              src="../src/assets/photo_2025-01-11_09-21-40-removebg-preview.png" className="w-20 h-15 mt-4"
               alt="Stem Logo"
             />
             <p className="text-[17px]">
@@ -62,7 +62,7 @@ const FooterCard= () => {
         </div>
       </div>
     </Footer>
-    </>
+    </div>
   )
 }
 

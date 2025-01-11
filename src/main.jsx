@@ -7,14 +7,11 @@ import App from './App';
 import Blog from './page/blog/Blog';
 import Book from './page/book/Book';
 import Lesson from './page/lesson/Lesson';
-import Notification from './page/notification/Notification';
 import Error from './page/error-page/Error';
 import Create from './page/create/Create';
-import Forum from './page/forum/Forum';
 import AboutUs from './page/about-us/AboutUs';
-import Register from './page/auth/Register';
-import Login from './page/auth/Login';
 import Home from './page/home/Home';
+import SchoolPage from './page/schoolPage/SchoolPage';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -38,8 +35,8 @@ const router = createBrowserRouter([
         element: <Lesson />
       },
       {
-        path: '/forum',
-        element: <Forum />
+        path: '/schoolPage',
+        element: <SchoolPage />,
       },
       {
         path: '/blog',
@@ -53,20 +50,8 @@ const router = createBrowserRouter([
         path: '/create',
         element: <Create />
       },
-      {
-        path: '/notification',
-        element: <Notification />
-      }
     ]
   },
-  {
-    path: '/login',
-    element: <Login />
-  },
-  {
-    path: '/register',
-    element: <Register />
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
