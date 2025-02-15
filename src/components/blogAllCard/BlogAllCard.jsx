@@ -4,14 +4,13 @@ import { Button } from 'flowbite-react';
 const BlogAllCard = () => {
   return (
     <section>
-      <div className="font-suwannaphum text-[30px] text-black mx-auto w-[80%] mt-5">ប្លុកទាំងអស់</div>
-      <div className="sm:rounded-t-lg mt-5 m-auto w-[80%]">
+      <div className="sm:rounded-t-lg mt-10 m-auto w-[80%] ">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 rounded-t-lg">
             <div className="border shadow-sm bg-white rounded-lg flex flex-col justify-between leading-normal">
               <img src="src/assets/CardBlog1.jpg" className="w-full rounded-t-lg" alt="Blog" />
               <div className="p-5 pt-2 -mt-5">
                 <div className="mb-0">
-                  <p className="text-gray-700 text-[20px] font-suwannaphum">
+                  <p className="text-gray-700 text-[20px] font-suwannaphum mt-5">
                     របៀបបង្កើតថ្នាក់នៅក្នុងសាលា-(studio.stem)របៀបបង្កើតថ្នាក់នៅក្នុងសាលា
                   </p>
                 </div>
@@ -42,7 +41,7 @@ const BlogAllCard = () => {
               <img src="src/assets/CardBlog2.jpg" className="w-full rounded-t-lg" alt="Blog" />
               <div className="p-5 pt-2 -mt-5">
                 <div className="mb-0">
-                  <p className="text-gray-700 text-[20px] font-suwannaphum">
+                  <p className="text-gray-700 text-[20px] font-suwannaphum mt-5">
                     របៀបបង្កើតថ្នាក់នៅក្នុងសាលា-(studio.stem)របៀបបង្កើតថ្នាក់នៅក្នុងសាលា
                   </p>
                 </div>
@@ -73,7 +72,7 @@ const BlogAllCard = () => {
               <img src="src/assets/CardBlog3.jpg" className="w-full rounded-t-lg" alt="Blog" />
               <div className="p-5 pt-2 -mt-5">
                 <div className="mb-0">
-                  <p className="text-gray-700 text-[20px] font-suwannaphum">
+                  <p className="text-gray-700 text-[20px] font-suwannaphum pt-3">
                     របៀបបង្កើតថ្នាក់នៅក្នុងសាលា-(studio.stem)របៀបបង្កើតថ្នាក់នៅក្នុងសាលា
                   </p>
                 </div>
@@ -135,7 +134,7 @@ const BlogAllCard = () => {
               <img src="src/assets/CardBlog5.jpg" className="w-full rounded-t-lg" alt="Blog" />
               <div className="p-5 pt-2 -mt-5">
                 <div className="mb-0">
-                  <p className="text-gray-700 text-[20px] font-suwannaphum">
+                  <p className="text-gray-700 text-[20px] font-suwannaphum mt-5">
                     របៀបបង្កើតថ្នាក់នៅក្នុងសាលា-(studio.stem)របៀបបង្កើតថ្នាក់នៅក្នុងសាលា
                   </p>
                 </div>
