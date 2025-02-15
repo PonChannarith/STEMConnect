@@ -5,7 +5,9 @@ import "aos/dist/aos.css";
 import bunath from "../../assets/Pheng Bunth.jpg";
 import visal from "../../assets/Visal.jpg";
 import Narith from "../../assets/Pon Channarith.jpg";
+import Khouch from "../../assets/Khouch.jpg";
 import Menghan from "../../assets/Mntor.jpg";
+
 const AllAboutUs = () => {
   useEffect(() => {
     AOS.init();
@@ -40,7 +42,7 @@ const AllAboutUs = () => {
           </h1>
         </div>
 
-        <div className="grid gap-10 md:gap-16 sm:grid-cols-2 lg:grid-cols-3 justify-center">
+        <div className="grid gap-10 md:gap-16 sm:grid-cols-3 lg:grid-cols-4 justify-center">
           <MentorCard
             name="Pon Channarith"
             title="Team Lead"
@@ -64,6 +66,15 @@ const AllAboutUs = () => {
             title="Member"
             description="Royal University of Phnom Penh"
             imgSrc={visal}
+            facebook="https://www.facebook.com/"
+            github="https://github.com/"
+            telegram="https://t.me/"
+          />
+           <MentorCard
+            name="Mong sokkhouch"
+            title="Member"
+            description="Royal University of Phnom Penh"
+            imgSrc={Khouch}
             facebook="https://www.facebook.com/"
             github="https://github.com/"
             telegram="https://t.me/"
