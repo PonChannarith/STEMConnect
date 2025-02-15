@@ -13,7 +13,7 @@ const FooterCard= () => {
               src="../src/assets/photo_2025-01-11_09-21-40-removebg-preview.png" className="w-20 h-15 mt-4"
               alt="Stem Logo"
             />
-            <p className="text-[17px]">
+            <p className="text-[17px] text-black font-suwannaphum mt-3">
             STEM website ​ដែល​រចនា​ឡើង​សម្រាប់​សិស្សដើម្បី​ចូល​រួម​ក្នុង​ការ​សិក្សា​សហការ និង​ការ​ចែក​រំលែក​ចំណេះដឹង <br />
              អ្នកប្រើប្រាស់មានការគ្រប់គ្រងពេញលេញលើការធ្វើដំណើររបស់ពួកគេនិងបង្កើតមេរៀននៅក្នុងវេទិកា។
             </p>

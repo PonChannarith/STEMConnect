@@ -5,8 +5,8 @@ const NavbarComponent = () => {
   return (
     <>
       {/* bg-[#16A1DF] */}
-      <nav className="w-full bg-yellow-300">
-        <Navbar fluid className="bg-yellow-300 max-w-[80%] mx-auto ">
+      <nav className="w-full bg-green-400">
+        <Navbar fluid className=" bg-green-400 max-w-[80%] mx-auto ">
           <Navbar.Brand>
             <Link to="/" className="flex items-center">
               <img
@@ -52,7 +52,7 @@ const NavbarComponent = () => {
             <NavLink
               to="/book"
               className={({ isActive }) =>
-                `font-suwannaphum text-2xl font-medium  text-[#00aeef] ${
+                `font-suwannaphum text-2xl font-medium  text-gray-700 ${
                   isActive ? "text-white" : ""
                 }`
               }
@@ -62,7 +62,7 @@ const NavbarComponent = () => {
             <NavLink
               to="/lesson"
               className={({ isActive }) =>
-                `font-suwannaphum text-2xl font-medium  text-[#00aeef] ${
+                `font-suwannaphum text-2xl font-medium  text-gray-700 ${
                   isActive ? "text-white" : ""
                 }`
               }
@@ -72,7 +72,7 @@ const NavbarComponent = () => {
             <NavLink
               to="/schoolPage"
               className={({ isActive }) =>
-                `font-suwannaphum text-2xl font-medium  text-[#00aeef] ${
+                `font-suwannaphum text-2xl font-medium  text-gray-700 ${
                   isActive ? "text-white" : ""
                 }`
               }
@@ -82,7 +82,7 @@ const NavbarComponent = () => {
             <NavLink
               to="/blog"
               className={({ isActive }) =>
-                `font-suwannaphum text-2xl font-medium  text-[#00aeef] ${
+                `font-suwannaphum text-2xl font-medium  text-gray-700 ${
                   isActive ? "text-white" : ""
                 }`
               }
@@ -92,7 +92,7 @@ const NavbarComponent = () => {
             <NavLink
               to="/about-us"
               className={({ isActive }) =>
-                `font-suwannaphum text-2xl font-medium  text-[#00aeef] ${
+                `font-suwannaphum text-2xl font-medium  text-gray-700 ${
                   isActive ? "text-white" : ""
                 }`
               }
